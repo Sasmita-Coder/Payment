@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font.awesome/4.2.0/css/font.awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Payment Form</h2>
+        <form action="" method="POST">
+            <div class="input_group">
+                <div class="input_box">
+                    <h3>User Details</h3>
+                    <input type="text" placeholder="username" required class="name">
+                    <i class="fa fa-user icon"></i>
+                    <input type="email" placeholder="example@gmail.com" required class="name">
+                    <i class="fa fa-envelope icon"></i>
+                    <input type="password" placeholder="password" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <h3>Payment Details</h3>
+                    <input type="radio" name="pay" class="radio" id="bc1" checked>
+                    <label for="bc1"><span>
+                        <i class="fa fa-cc-visa"></i>Credit Card</span>
+                    </label>
+                    <input type="radio" name="pay" class="radio" id="bc2" checked>
+                    <label for="bc2"><span>
+                        <i class="fa fa-cc-visa"></i>Debit Card</span>
+                    </label>
+                    <input type="radio" name="pay" class="radio" id="bc3" checked>
+                    <label for="bc3"><span>
+                        <i class="fa fa-cc-paypal"></i>Paypal</span>
+                    </label>
+                    <input type="radio" name="pay" class="radio" id="bc4" checked>
+                    <label for="bc4"><span>
+                        <i class="fa fa-cc-visa"></i>UPI</span>
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
